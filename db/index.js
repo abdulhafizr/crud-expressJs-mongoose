@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const User = require('./user');
 
 mongoose.connect('mongodb://localhost:27017/ahr', {useNewUrlParser: true, useUnifiedTopology: true});
 
